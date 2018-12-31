@@ -1,0 +1,1364 @@
+/* iPad pro landscape*/
+@media only screen and (min-device-height: 1024px) and (max-width: 1366px){
+    
+    #burg-menu {
+        border: 5px solid #fff;
+        width:  6em;
+        font-size: 170%;
+    }
+    #burg-menu p{
+        padding-top: 0.3em;
+        margin-bottom: 0.5em;
+    }
+    .nav {
+        width: 60vw;
+        height: 70vh;
+        top: 15vh;
+        left: 20vw;
+    }
+    .nav-item a{
+    font-size: 110%;
+    }
+    .nav-item a:hover{  
+        font-size: 120%;
+    }
+    .logo {
+        height: 10em;
+        width:10em;
+    }
+    .header-display,
+    #dots {
+        width: 40em;
+        height: 40em;
+    }
+    @-webkit-keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to{
+        left: 27%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }
+    @keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        }
+    
+    to{
+        left: 27%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }
+    .header-title h1{
+        font-size: 300%;
+    }
+    .header-title p{
+        font-size: 180%;
+    }
+    .btns {
+        width: 100%;
+    }
+    .header-btn{
+        font-size: 1.5em;
+    }
+    
+    /*-- SECTION Template --*/
+    .temp{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .temp-img-5{
+        background-size: 70%;
+    }
+
+    h2{
+        font-size: 160%;
+        padding-bottom: 3em; 
+        opacity: 0;
+    }
+    .p-2 p {
+        font-size: 1em;
+    }
+    h3{
+        font-size: 1.4em;
+    }
+
+     /*-- SECTION Skill --*/
+    .section-a{
+        height: 50vh;
+        top: 15vh;
+    }   
+    .sev-dt-col ul li{
+        letter-spacing: 0.1em;
+        font-size: 1.1em;
+        padding-bottom: 0.5em;
+    } 
+     /*-- SECTION C --*/
+    .two-of-1pnl{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .two-of-2pnl{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .inner-slide-1{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 15%;
+        height: 80%;
+    }
+    .outer-img {
+        width: 75%;
+        top: 20%;
+        left: 25%;
+    }
+    .contSlide{
+        height: 90%;
+    }
+
+    .half-title{
+        width: 70%;
+        height: 80%;
+    }  
+    .half-title h2{
+        text-align: center;
+        padding-top: 5em;
+        font-size: 140%;
+    }
+    .half-title p{
+        text-align: center;
+        letter-spacing: 0.09em;
+        font-size: 1.2em;    
+    }
+    .inner-slider h2{
+        text-align: left;
+    }
+    .slider-menu {
+        bottom: 25%;
+    }
+    .slide-dot {
+        width: 1.7em;
+        height: 1.7em;
+        margin: 0 0.8em;
+    }
+    /*-- Footer--*/
+    #top{
+        font-size: 400%;
+        -webkit-animation: flying 2s ease-out infinite;
+        animation: flying 2s ease-out infinite ; 
+        margin-top: 0;
+        color: rgb(11, 236, 255);
+        -webkit-transition: all linear;
+        transition: all linear;
+    }
+    @-webkit-keyframes flying{
+        0%{
+            margin-top: -10px;
+        }
+        50%{
+            margin-top: 5px;
+        }
+        100%{
+            margin-top: -10px;
+        }
+    }
+    @keyframes flying{
+        0%{
+            margin-top: -10px;
+        }
+        50%{
+            margin-top: 5px;
+        }
+        100%{
+            margin-top: -10px;
+        }
+    }
+}
+/*small tablets to big rablets 812px to 1024px  iPad landscape*/
+
+@media only screen and (max-width: 1024px){
+    .logo {
+        height: 9em;
+        width: 9em;
+    }
+    #burg-menu {
+        width:  5.5em;
+        font-size: 120%;
+    }
+    #burg-menu p{
+        padding-top: 0.1em;
+        margin-bottom: 0.5em;
+    } 
+    .nav {
+        width: 60vw;
+        height: 70vh;
+        top: 15vh;
+        left: 20vw;
+    }
+    .nav-item a{
+        font-size: 110%;
+    }
+    .nav-item a:hover{  
+        font-size: 120%;
+    }
+    /*-- SECTION Template --*/
+    .temp-bubble{
+        padding: 1.5em;
+        height: 20em;
+        width: 20em;
+    }
+    .temp p{
+        line-height: 0.8em;
+    }
+    .p-2 .card-btn{
+        font-size: 80%;
+    }
+
+     /*-- SECTION C --*/
+    .section-c,
+    .forth,
+    .c-sec-details
+    {
+        height: 95vh;
+        
+    }
+    .outer-img {
+        width: 75%;
+        top: 27%;
+        left: 25%;
+    }
+    .contSlide{
+        height: 90%;
+    }
+
+    .half-title{
+        width: 75%;
+        height: 75%;
+    }  
+
+    .inrSlide {
+        background-size: 95%;
+        background-repeat: no-repeat;
+        top: 15px;
+    }  
+ 
+        /*-- Footer--*/
+    #top{
+/*        font-size: 400%;*/
+        font-size: 400%;
+
+        -webkit-animation: flying 2s linear infinite;
+        animation: flying 2s linear infinite; 
+        margin-right: -10px;
+        color: rgb(11, 236, 255);
+    }
+    @-webkit-keyframes flying{
+        0%{
+            padding-top: -10px;
+        }
+        50%{
+            padding-top: -15px;
+        }
+        100%{
+            padding-top: -10px;
+        }
+    }
+    @keyframes flying{
+        0%{
+            margin-right: -10px;
+        }
+        50%{
+            margin-right: -20px;
+        }
+        100%{
+            margin-right: -10px;
+        }
+    }
+}
+/*iPad Pro portrait*/
+@media only screen and (min-device-height: 1366px) and (max-width: 1024px){
+    .logo {
+        left: 0;
+        height: 40m;
+        width:  40em;
+    }
+    .logo p{
+        font-size: 3em;
+    }
+    #burg-menu {
+        border: 5px solid #fff;
+        width:  6em;
+        font-size: 170%;
+    }
+    #burg-menu p{
+        padding-top: 0.3em;
+        margin-bottom: 0.5em;
+    }
+    .header-display{
+        width: 40em;
+        height: 40em;
+        top: 30%;
+    }
+    @-webkit-keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to{
+        left: 20%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+    }
+}
+    @keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to{
+        left: 20%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }
+    .nav {
+        width: 60vw;
+        height: 60vh;
+        top: 20vh;
+        left: 20vw;
+        padding: 10%;
+    }
+    .nav ul{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .nav-item{
+        padding-top: 2em;
+    }
+    .nav-item a{
+        font-size: 130%;
+    }
+    .nav-item a:hover{  
+        font-size: 150%;
+    }
+    
+     /*-- SECTION C --*/
+    .section-c,
+    .forth {
+        height: 95vh;
+
+    }
+    .inner-slide-1{
+        width: 60%;
+        margin-top: 0%;
+        margin-left: 20%;
+        height: 100%;
+    }
+    .outer-img {
+        width: 60%;
+        top:   10%;
+        left:  20%;
+    }
+    .inner-slider{
+        margin-top: 0%;
+    }
+    .inner-slide-2{
+        margin-top: 0%;
+        height: 85.5%;
+    }
+    
+    .half-title{
+        width:  626px;
+        height: 90%;
+        left: 20.2%;
+        border-top: none;   
+    }  
+    .half-title h2{
+        padding-top: 1em;
+    }
+    .half-title p{
+        font-size: 1.3em;    
+    }  
+    
+    .inrSlide{
+        background-size: 80%;
+    }  
+    .c-sec-details {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+    .slider-menu {
+        bottom: 4%;
+        left: 43%;
+    }
+    .slide-dot {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+/*Pixel 2 XL landscape*/ 
+@media only screen and (max-width: 824px){
+    .logo {
+        height: 20em;
+        width:  20em;
+    }
+
+    .header-display{
+        width: 20em;
+        height: 20em;
+        top: 10%;
+    }
+    .header-title h1{
+        font-size: 1.5em;
+    }
+    .header-title p{
+        font-size: 1.1em;
+    }
+    .menu-btns a{
+        font-size: 0.7em;
+    }
+    #burg-menu p{
+        font-size: 0.8em;
+    }
+    .nav {
+        width: 60vw;
+        height: 100vh;
+        top: 0;
+        left: 20vw;
+        padding: 10%;
+    }
+    .nav{
+        padding: 2%;
+    }
+    .nav ul{
+        width: 70%;
+        height: 100vh;
+        margin-left: 15%;
+    }
+    .nav-item{
+        padding-top: 0;
+        font-size: 1em;
+    }
+    .nav-item a{
+        font-size: 100%;
+    }
+    .nav-item a:hover{  
+        font-size: 115%;
+    }
+    
+    /*SECTION Temp*/
+    .p-2 p {
+/*        padding: 10px;*/
+        font-size: 0.9em;
+        margin-bottom: 0.9em
+    }
+    .temp-bubble{
+        padding: 1.5em;
+        height: 19em;
+        width: 19em;
+    }
+    .temp-img{
+        opacity: 0.90;
+    }
+    .temp-img-1{
+        background-size: 140%;
+    }
+    .temp-img-2,
+    .temp-img-3 {
+        background-size: 100%;
+    }
+    .temp-img-4{
+        background-size: 130%;
+        opacity: 0.95;
+    }
+    .temp-img-5{
+        margin-left: 5%;
+        background-size: 90%;
+    }
+    /*-- SECTION Skill --*/
+    .section-a{
+        height: 75vh;
+        top: 2.5vh;
+    }   
+    .section-a h2{
+        font-size: 120%;
+        padding-top: 1.2em;
+        padding-bottom: 1em ;
+    }
+    .section-a h3{
+        font-size: 90%;
+    }
+    .section-a .two{
+        padding-bottom: 0;
+    }
+    .sev-dt-col{
+        padding: 0.8em;
+    }
+
+    .sev-dt-col ion-icon{
+        font-size: 170%;
+
+    }
+    .sev-dt-col ul li{
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+        padding-bottom: 0.5em;
+    } 
+
+
+    /*SECTION C*/
+    .inner-slide-1{
+        margin-top: 12%;
+    }
+    .outer-img {
+        top: 5%;
+    }
+    .contSlide{
+        height: 95%;                
+    }
+    .half-title{
+        width: 70%;
+        height: 90%;
+    }  
+    .half-title h2{
+        text-align: center;
+        padding-top: 5em;
+        font-size: 140%;
+    }
+    .half-title p{
+        text-align: center;
+        letter-spacing: 0.09em;
+        font-size: 1.2em;    
+    }
+    .inrSlide {
+        top: 0;
+        padding: 10px;
+    } 
+    .two-of-2pnl .half-title {
+        width: 80%;
+    }
+    .half-title h2{
+        font-size: 90%;
+        text-align: left;
+        padding-top: 1.5em;
+    }
+    .half-title p{
+        font-size: 78%;    
+    }
+    .slider-menu {
+        bottom: 8%;
+        left: 15%;
+    }
+    .slide-dot {
+        width: 1em;
+        height: 1em;
+    }
+    /* Section E*/
+    .template h2,
+    .sixth h2,
+    footer h2 {
+        font-size: 1.15em;
+    }
+
+}
+
+/*small tablets 769 to 812px iPhone-X landscape-- */
+@media only screen and (max-width: 812px){
+    .header-title{
+        margin-bottom: 0;
+    }
+    .nav-item{
+        font-size: 0.9em;
+    }
+    /*SECTION Temp*/
+    .p-2 p {
+        font-size: 0.9em;
+        margin-bottom: 0.9em
+    }
+    .temp-bubble{
+        padding: 1.5em;
+        height: 19em;
+        width: 19em;
+    }
+    .temp-img{
+        opacity: 0.95;
+    }
+    .temp-img-2,
+    .temp-img-3 {
+        background-size: 100%;
+    }
+    .temp-img-4{
+        background-size: 130%;
+        opacity: 0.95;
+    }
+    .temp-img-5{
+       margin-left: 5%;
+    }
+      
+        /*-- SECTION Skill --*/
+    .section-a{
+        height: 75vh;
+        top: 2.5vh;
+    }   
+    .section-a h2{
+        font-size: 110%;
+        padding-top: 1.2em;
+        padding-bottom: 1em;
+    }
+    .section-a h3{
+        font-size: 80%;
+    }
+
+    .sev-dt-col{
+        padding-top: 0;
+    }
+    .section-a .p-2 {
+        padding: 0.3em ! important;
+    }
+    .sev-dt-col ul li{
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+        padding-bottom: 0.5em;
+    } 
+    /* SECTION C*/
+    .inrSlide{
+        background-size: 80%;
+    }
+    .meText{
+        margin-bottom: 0.7em;
+    }
+    /* Footer*/
+    #top {
+        font-size: 300%;
+    }
+
+}
+
+/* iPhone 6/7/8 plus , Pixel2 landscape small tablet*/ 
+@media only screen and (max-width: 768px){
+   .header-btn{
+       font-size: 0.8em;
+    } 
+    #burg-menu {
+        width:  5.5em;
+        font-size: 80%;
+    }
+    #burg-menu p{
+        padding-top: 0.1em;
+        margin-bottom: 0.4em;
+    } 
+    .nav{
+        padding: 5%;
+    }
+    h2{
+        font-size: 0.7em;
+        padding: 1em;
+    }
+    .text {
+        -webkit-animation: typing 1.5s steps(80, end) forwards;
+        animation: typing 1.5s steps(80, end) forwards;
+    }
+    
+    /* Section Template*/
+    .temp-img-1{
+        background-size: 140%;
+    }
+    .temp-img-4{
+        background-size: 130%;
+    }
+    .temp-img-5{
+        margin-left: 3%;
+        background-size: 100%;
+    }
+    /*--SECTION A--*/
+    .second h2{
+        padding-top: 2em;       
+    }
+
+    /*--SECTION C--*/
+    .inner-slide-1 .inrSlide {
+        top: 5%;
+    }
+    /* SECTION E */
+    .sixth h2{
+        font-size: 0.9em;
+    }
+    /*FOOTER*/
+    footer h5,
+    footer p{
+        font-size: 0.9em;
+    }
+    
+
+}
+
+/* iPad portrait kindle */
+@media only screen and (min-device-height: 1024px) and (max-width: 768px){
+    .logo {
+        height: 30em;
+        width:  30em;
+    }
+
+    .header-display{
+        width: 30em;
+        height: 30em;
+        top: 25%;
+    }
+    @-webkit-keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to{
+        left: 20%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+    }
+}
+    @keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        }
+    
+    to{
+        left: 20%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }
+    .menu-btns a{
+        font-size: 1.1em;
+    }
+    #burg-menu {
+        width:  5.5em;
+        font-size: 120%;
+    }
+    #burg-menu p{
+        padding-top: 0.1em;
+        margin-bottom: 0.5em;
+    }   
+    .nav { 
+        height: 70vh; 
+        top: 15vh;
+        padding-top: 8%;
+    }
+    .nav-item a:hover{  
+        font-size: 115%;
+    }
+    .nav-item{
+        -ms-flex-preferred-size: 10%;
+        flex-basis: 15%;
+        font-size: 1.5em;
+    }
+    /*-- SECTION A --*/
+    .second{
+        height: 60vh;
+    }
+    .section-a{
+        height: 40vh;
+        top:10vh;
+    }
+    .section-a h2 {
+        font-size: 150%;
+    }
+    .section-a h3{
+        font-size: 87%;
+    }
+    .sev-dt-col ul li{
+        font-size: 0.9em;
+    }
+    /*-- SECTION C --*/
+   .inner-slide-1{
+        width: 60%;
+        margin-top: 0;
+        margin-left: 20%;
+        height: 100%;
+    }
+    .outer-img {
+        width: 60%;
+        top:   10%;
+        left:  20%;
+    }
+    .inner-slide-2{
+        margin-top: 5%;
+        height: 85.5%;
+    }
+    .half-title{
+        width: 80%;
+        left: 10%;
+    }
+    
+    .half-title h2{
+        padding-top: 3em;
+        font-size: 1.2em;
+    }
+    .half-title p{
+        font-size: 1em;    
+    }  
+    .inrSlide{
+        background-size: 85%;
+    }  
+    .c-sec-details {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+    .slider-menu {
+        bottom: 4%;
+        left: 39%;
+    }
+    .slide-dot {
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+/* iPhone 6/7/8 GalaxyS5 landscape*/ 
+@media only screen and (max-width: 667px){
+    .header-btn {
+       font-size: 0.7em;
+    }
+    .logo {
+        left: 32vw;
+    }
+    /*SECTION TEMPLATE*/
+    .temp-img-1{
+        background-size: 150%; 
+    }
+    .temp-img-4{
+        background-size: 130%; 
+    }
+    /*--SECTION A--*/
+    .second{
+        height: 90vh;
+    }
+    .section-a{
+        height: 84vh;
+        top: 2vh;
+    }
+    .section-a h3{
+        font-size: 70%;
+    }
+    .slider-menu {
+        bottom: 4%;
+    }
+    .slide-dot {
+        width: 0.7em;
+        height: 0.7em;
+        margin: 0 0.8em;
+    }
+
+}
+
+/* iPhone 5/SE landscape*/
+@media only screen and (max-width: 568px){
+    .header-display{
+        top: 5vh;
+    }
+    .logo {
+        left: 30vw;
+    }
+    .header-display{
+        width: 18em;
+        height: 18em;
+    }
+
+    @-webkit-keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to{
+        left: 25%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }
+    @keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        }
+    
+    to{
+        left: 25%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }    
+    .header-title h1{
+        font-size: 165%
+    }
+    .btn-container{
+        width: 60%;
+        left: 20%;
+    }
+    .header-btn{
+        width: 100%;
+    }
+    .nav {
+        padding: 2%;
+    }
+    /* SECTION TEMP*/
+    .temp:nth-child(even){
+        padding-right: 5%;
+    }
+    .temp:nth-child(odd){
+        padding-right: 5%;
+    }
+    .temp-img-1{
+        padding: 0;
+        background-size: 135%; 
+    }
+    .temp-img-3{
+        background-size: 100%; 
+    }
+    .temp-img-4{
+        background-size: 130%; 
+    }
+    .temp-img-5{
+        background-size: 80%;
+        margin-left: 0;
+    }
+    /*SECTION SKILL*/
+    .second{
+        height: 100vh;
+    }
+    .section-a{
+        height: 90vh;
+        top: 5vh;
+    }    
+
+    /*SECTION C*/
+    .c-sec-details {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .half-title{
+        width: 75%;
+    }
+    .cont-title{
+        padding-right: 0.8em;
+        padding-left: 0.8em;
+    }
+    .half-title h2{
+        padding-top: 1.5em;
+        font-size: 70%;
+    }
+    .half-title p{
+        font-size: 65%;    
+    }
+    /*FOOTER*/
+    footer h5{
+        font-size: 95%;
+    }
+    footer p{
+        font-size: 90%;
+    }
+    .footer-main {
+        padding: 0 1em;
+    }
+}
+/*Pixel 2 XL, Pixel 2 iPhone 6/7/8 Plus  *iPhone x portrait Android*/
+@media only screen and (min-device-height: 731px) and (max-device-height: 823px) and (max-width: 480px){
+
+    .logo p{
+        font-size: 2em;
+    }
+    #burg-menu {
+        border: 3px solid black;
+        width:  5em;
+        font-size: 120%;
+    }
+    #burg-menu p{
+        padding-top: 0.1em;
+        margin-bottom: 0.2em;
+    }
+    .header-display{
+        width: 18em;
+        height: 18em;
+        top: 35vh;
+    }
+    @-webkit-keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to{
+        left: 18%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }
+    @keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        }
+    
+    to{
+        left: 18%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    } 
+    .header-btn{
+       display: inline-block;
+        margin-top: 0;
+    }
+    .header-title{
+         margin-top: 40%;
+        width: 80%;
+    }
+    .nav { 
+        height: 70vh; 
+        top: 15vh;
+        padding: 10% 0;
+       
+    }
+    .nav ul {
+        width: 100%;
+        margin: 0;
+    }
+    .nav-item{
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+        font-size: 1em;
+    }
+    .nav-item:nth-child(3){
+        padding-bottom: 1.5em;
+    }
+    /* SECTION TEMP*/
+
+    .temp:nth-child(odd){
+        margin:0;
+        padding: 10%;
+    }
+    .temp-bubble{
+        width: 16em;
+        height: 16em;
+    }
+
+    .template h2{
+        font-size: 0.8em;
+    }
+    .temp h3{
+        font-size: 90%
+    }
+    .temp p{
+        font-size: 75%;
+    }
+    .temp .two{
+        -ms-flex-preferred-size: 5% !important;
+        flex-basis: 5% !important;
+        padding: 0 !important;
+    }
+    /*--SECTION A--*/
+    .h2{
+        font-size: 70%;
+        padding-top: 4em; 
+        opacity: 0;
+    }
+    .second{
+        height: 80vh;
+    }
+    .section-a{
+        height: 70vh;
+        top: 5vh;
+    }   
+
+    /*--SECTION C*/
+    .c-sec-details {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+    .inner-slide-1{
+        width: 70%;
+        margin-top: 15%;
+        margin-left: 15%; 
+    }
+    .outer-img {
+        width: 70%;
+        top:   18%;
+        left:  15%;
+    }
+    .inner-slide-2{
+        margin-top: 4%;
+        height: 85.5%;
+    }
+    .half-title{
+        width:  70%;
+        height: 95%;
+        left: 10%;
+        border-top: none;   
+    }  
+    .half-title h2{
+        padding-top: 1.5em;
+    }
+    .half-title p{
+        font-size: 0.72em;    
+    }  
+    .inrSlide{
+        background-size: 83%;
+    }  
+    .slider-menu {
+        bottom: 8%;
+        left: 33%;
+    }
+    .slide-dot {
+        width: 25px;
+        height: 25px;
+    }
+    /*SECTION E */
+    .sixth h2{
+        font-size: 0.7em;
+    }
+    
+    /*--FOOTER--*/
+    .footer-container{
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .footer-main{
+        padding: 0 3em;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+    .footer-cont:nth-child(1){
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }   
+}
+
+
+/*iPhone 6/7/8 portrait Android 480 x 320*/
+@media only screen and (min-device-height: 480px) and (max-width: 375px){
+    @-webkit-keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    to{
+        left: 16%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    }
+    @keyframes rolling {
+    
+    from{
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        }
+    
+    to{
+        left: 16%;
+        -webkit-transform:  rotate(360deg);
+        transform:  rotate(360deg);
+        }
+    } 
+    .logo p{
+        font-size: 2em;
+    }
+    #burg-menu {
+        border: 3px solid #fff;
+        width:  5em;
+        font-size: 120%;
+    }
+    #burg-menu p{
+        padding-top: 0.1em;
+        margin-bottom: 0.2em;
+    }
+    .header-display{
+        top: 30vh;
+    }
+    .header-btn{
+        display: inline-block;
+        margin-top: -10%;
+    }
+    .header-title{
+        margin-top: 40%;
+        width: 80%;
+    }
+    .nav { height: 80vh; top: 10vh;}
+    .nav-item{
+        -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
+        font-size: 1em;
+    }
+    .nav ul{
+        width: 100%;
+        margin-left: 0;
+        padding-top: 20%;
+    }
+    /* SECTION TEMP*/
+    
+    .temp{
+        padding-left: 23%;
+    }
+    .temp-bubble{
+        width: 16em;
+        height: 16em;
+    }
+    .temp-img{
+        display: none;
+    }
+    .template h2,
+    .sixth h2 {
+        font-size: 0.67em;
+    }
+    .temp h3{
+        font-size: 90%
+    }
+    .temp p{
+        font-size: 75%;
+    }
+    .temp .two{
+        -ms-flex-preferred-size: 5% !important;
+        flex-basis: 5% !important;
+        padding: 0 !important;
+    }  
+    /*--SECTION A--*/
+    .h2{
+        font-size: 100%;
+        padding-top: 4em; 
+        opacity: 0;
+    }
+
+    .second .fp-scroller{
+        -webkit-transform: translate(0px, -265px) translateZ(0px);
+        transform: translate(0px, -265px) translateZ(0px)
+    }
+
+    /*--SECTION C*/
+    .c-sec-details {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+    .inner-slide-1{
+        width: 70%;
+        margin-top: 15%;
+        margin-left: 15%; 
+    }
+    .outer-img {
+        width: 70%;
+        top:   18%;
+        left:  15%;
+    }
+    .inner-slide-2{
+        margin-top: 4%;
+        height: 85.5%;
+    }
+    .half-title{
+        width:  70%;
+        height: 95%;
+        left: 10%;
+        border-top: none;   
+    }  
+    .half-title h2{
+        padding-top: 1.5em;
+    }
+    .half-title p{
+        font-size: 0.72em;    
+    }  
+    .inrSlide{
+        background-size: 83%;
+    }  
+    .slider-menu {
+        bottom: 8%;
+        left: 30%;
+    }
+    .slide-dot {
+        width: 25px;
+        height: 25px;
+    }
+    
+    /*--SECTION E--*/
+
+    /*--FOOTER--*/
+    .footer-container{
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .footer-main{
+        padding: 0 3em;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+    .footer-cont:nth-child(1){
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    } 
+    
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
